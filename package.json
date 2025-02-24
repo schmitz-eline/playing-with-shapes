@@ -1,32 +1,14 @@
 {
   "name": "playing-with-shapes",
   "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/hepl-dcc/playing-with-shapes",
-  "author": "Daniel Schreurs <daniedaniel.schreurs@hotmail.com>",
-  "license": "MIT",
+  "description": "> A JS exercise use at HEPL for MMI.",
+  "main": "index.html",
   "scripts": {
-    "dev": "npm run development",
-    "development": "mix",
-    "watch": "mix watch",
-    "watch-poll": "mix watch -- --watch-options-poll=1000",
-    "hot": "mix watch --hot",
-    "prod": "npm run production",
-    "production": "mix --production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "eslintConfig": {
-    "extends": [
-      "wesbos"
-    ]
-  },
+  "author": "Daniel <daniel.schreurs@hepl.be>",
+  "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.27.7",
-    "browser-sync-webpack-plugin": "^2.3.0",
-    "laravel-mix": "^6.0.43",
-    "resolve-url-loader": "^5.0.0",
-    "sass": "^1.49.8",
-    "sass-loader": "^12.6.0",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.5.5"
+    "vite": "^6.1.1"
   }
 }
